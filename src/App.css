@@ -1,38 +1,78 @@
-.App {
+body {
+  padding: 0;
+  margin: 0px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: peru;
+}
+.nav span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+}
+.nav ul li {
+  margin-left: 20px;
+  text-transform: uppercase;
+  display: block;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.home h1 {
+  width: 100%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home .quiz {
+  background-color: skyblue;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home .quiz:hover {
+  background-color: #cbf1f6;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.quiz-page {
+  margin: 0 50px;
+  padding: 30px;
+  background-color: #e6e6e6;
+}
+.quiz-page h1 {
+  color: #764ba2;
+}
+.quiz-page p {
+  padding: 20px;
+  font-size: 1.2em;
 }
 
-.App-link {
-  color: #61dafb;
+.quiz-page .question {
+  background-color: #ff7eb3;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.quiz-page .question form label,
+.quiz-page .question form input {
+  margin-bottom: 20px;
+}
+.quiz-page .question button {
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 0;
+  font-size: 1.2em;
 }
