@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/quizat/static/css/main.5dd3188a.chunk.css",
+    "main.js": "/quizat/static/js/main.fa1f42c8.chunk.js",
+    "main.js.map": "/quizat/static/js/main.fa1f42c8.chunk.js.map",
+    "runtime-main.js": "/quizat/static/js/runtime-main.5e35e492.js",
+    "runtime-main.js.map": "/quizat/static/js/runtime-main.5e35e492.js.map",
+    "static/js/2.a61685e3.chunk.js": "/quizat/static/js/2.a61685e3.chunk.js",
+    "static/js/2.a61685e3.chunk.js.map": "/quizat/static/js/2.a61685e3.chunk.js.map",
+    "index.html": "/quizat/index.html",
+    "static/css/main.5dd3188a.chunk.css.map": "/quizat/static/css/main.5dd3188a.chunk.css.map",
+    "static/js/2.a61685e3.chunk.js.LICENSE.txt": "/quizat/static/js/2.a61685e3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e35e492.js",
+    "static/js/2.a61685e3.chunk.js",
+    "static/css/main.5dd3188a.chunk.css",
+    "static/js/main.fa1f42c8.chunk.js"
+  ]
+}
